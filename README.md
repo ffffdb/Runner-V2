@@ -17,27 +17,15 @@ Boostez votre workflow dans VSCode avec un bouton qui lance instantanément votr
 
 1. Installez l’extension depuis le [Marketplace VSCode](https://marketplace.visualstudio.com/items?itemName=tonnom.bouton-runner-on-terminal).  
 2. Cliquez sur le bouton **⚙ Configurer Commande** dans la barre d’état en bas à droite.  
-3. Entrez la commande à exécuter, par exemple `npm run dev` ou `python app.py`.  
-4. Lancez la commande via la palette (Ctrl+Shift+P > `Bouton Runner on Terminal: Run Command`) ou associez un raccourci clavier.
+3. Entrez la commande à exécuter, par exemple `npm run dev` ou `python main.py`.  
+4. Lancez la commande via le bouton en haut a droite.
 
 ---
 
 ## 🔧 Configuration
 
-Vous pouvez modifier la commande par défaut en éditant le paramètre utilisateur VSCode :
-
-{
-  "bouton-runner-on-terminal.commandToRun": "votre_commande_personnalisée"
-}
-
----
-
-## 📂 Ressources
-
-- **Code source** : [GitHub Repository](https://github.com/tonnom/bouton-runner-on-terminal)  
-- **Rapport de bugs & suggestions** : [Issues GitHub](https://github.com/tonnom/bouton-runner-on-terminal/issues)  
-- **Documentation complète** : [README.md](https://github.com/tonnom/bouton-runner-on-terminal/blob/main/README.md)  
-- **Marketplace VSCode** : [Bouton Runner on Terminal](https://marketplace.visualstudio.com/items?itemName=tonnom.bouton-runner-on-terminal)
+Vous pouvez modifier la commande par défaut en cliquant sur le bouton en bas a droite de votre écran.
+Une fois sa de fait votre extension est prete a etre utilisé en cliquant sur le bouton run en haut a droite.
 
 ---
 
@@ -45,8 +33,8 @@ Vous pouvez modifier la commande par défaut en éditant le paramètre utilisate
 
 Merci à toutes les personnes qui ont contribué à ce projet :
 
-- **>$** – [alicegithub](https://github.com/ffffdb)  
-- **FluidyfaxSCR** – [bobmartin](https://github.com/FluidyfaxSCR)
+- **>$** – [GitHub](https://github.com/ffffdb)  , Discord - (1320108373294846069)
+- **FluidyfaxSCR** – [GitHub](https://github.com/FluidyfaxSCR) , Discord - (1288490291010994240)
 
 ---
 
