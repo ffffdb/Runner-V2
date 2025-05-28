@@ -1,0 +1,74 @@
+{
+  "name": "bouton-runner-on-terminal",
+  "displayName": "Bouton runner on terminal",
+  "description": "Extension VS Code qui ajoute un bouton pour exécuter une commande.",
+  "version": "0.0.1",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bouton-runner-on-terminal.runCommand",
+        "title": "Run"
+      },
+      {
+        "command": "bouton-runner-on-terminal.configureCommand",
+        "title": "Configurer la commande à exécuter"
+      }
+    ],
+    "menus": {
+      "menubar/run": [
+        {
+          "command": "bouton-runner-on-terminal.runCommand",
+          "group": "1_modification"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "bouton-runner-on-terminal.configureCommand",
+          "when": "true",
+          "group": "navigation"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "bouton-runner-on-terminal.runCommand",
+          "group": "navigation"
+        }
+      ]
+    },
+    "configuration": {
+      "type": "object",
+      "title": "Bouton Runner On Terminal",
+      "properties": {
+        "bouton-runner-on-terminal.commandToRun": {
+          "type": "string",
+          "default": "echo \"Aucune commande configurée\"",
+          "description": "Commande exécutée dans le terminal lorsque vous cliquez sur le bouton Run."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.25.1",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
