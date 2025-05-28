@@ -1,6 +1,6 @@
-# Bouton Runner on Terminal
+# Runner V2
 
-Boostez votre workflow dans VSCode avec un bouton qui lance instantanément votre commande favorite dans un terminal intégré.
+Ajouter un bouton qui lance instantanément votre commande favorite dans un terminal intégré.
 
 ---
 
@@ -10,6 +10,12 @@ Boostez votre workflow dans VSCode avec un bouton qui lance instantanément votr
 - **Gestion propre des terminaux** : Ferme tous les terminaux ouverts avant d’en créer un nouveau, pour garder votre espace de travail organisé.  
 - **Configuration facile** : Modifiez la commande à exécuter via un bouton dans la barre d’état, sans ouvrir les paramètres manuellement.  
 - **Commande persistante** : La commande reste sauvegardée dans vos paramètres utilisateur pour une utilisation immédiate à chaque session.
+---
+
+🌐 **Explorez nos ressources**
+
+- [Documentation](https://github.com/ffffdb/Runner-V2)
+- [Report a Bug](https://discord.gg/a4YRZNjfPC)
 
 ---
 

@@ -1,18 +1,21 @@
 {
-  "name": "bouton-runner-on-terminal",
-  "displayName": "Bouton runner on terminal",
+  "name": "Runner-V2",
+  "displayName": "Runner V2",
   "description": "Extension VS Code qui ajoute un bouton pour exécuter une commande.",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "icon": "logo.png",
+  "publisher": "fffdb",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "*"
-  ],
+    "activationEvents": [
+       "onCommand:bouton-runner-on-terminal.runCommand",
+       "onCommand:bouton-runner-on-terminal.configureCommand"
+    ],
+
   "main": "./extension.js",
   "contributes": {
     "commands": [
@@ -57,6 +60,10 @@
         }
       }
     }
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/ffffdb/bouton-runner-on-terminal.git"
   },
   "scripts": {
     "lint": "eslint .",
